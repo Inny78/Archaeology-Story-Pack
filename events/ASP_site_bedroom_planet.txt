@@ -1,0 +1,58 @@
+namespace = ASPmod
+
+### Archaeology: A bedroom planet
+
+# Stage 1 - Ground Survey
+fleet_event = {
+	id = ASPmod.10
+	title = "ASPmod.10.name"
+	desc = "ASPmod.10.desc"
+	picture = GFX_evt_ASP_samchigui_sixth
+	show_sound = event_dig_site
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+		small_artifact_reward = yes
+	}
+}
+
+# Stage 2 - The Ranches
+fleet_event = {
+	id = ASPmod.11
+	title = "ASPmod.11.name"
+	desc = "ASPmod.11.desc"
+	picture = GFX_evt_ASP_samchigui_seventh
+	show_sound = event_energy_field
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = "ASPmod.11.option"
+		medium_artifact_reward = yes
+		from.planet = {
+			add_deposit = d_ASP_a_bedroom_planet_blocker
+		}
+	}
+}

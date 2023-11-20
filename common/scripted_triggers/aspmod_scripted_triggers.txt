@@ -1,0 +1,44 @@
+aspmod_dig_site_default_spawn_rules = {
+	solar_system = {
+		exists = star
+		NOR = {
+			has_star_flag = sealed_system
+			has_star_flag = empire_cluster
+			has_special_star_flag_trigger = yes
+			is_fe_cluster = yes
+			has_star_flag = drone_home_system
+			any_system_planet = {
+				OR = {
+					has_planet_flag = hatchling_egg
+					has_planet_flag = suppress_archaeological_sites
+				}
+			}
+		}
+	}
+	has_anomaly = no
+	NOT = { exists = archaeological_site }
+}
+aspmod_dig_site_visible_trigger = {
+	asp_is_default_empire = yes
+	is_ai = no
+	exists = from
+	exists = from.planet
+	exists = from.solar_system
+	default_site_visible_trigger = yes
+}
+
+asp_is_default_empire = {
+	OR = {
+		is_country_type = default
+		# Darkspace
+		is_country_type = ds_nomads
+		# Ethics & Civics Infinity
+		is_country_type = uo_une_member_active
+		# Scripted Triggers Undercoat
+		has_country_flag = is_playable
+		# The Empty Vagrant
+		is_country_type = default_ev
+		# ZOFE
+		is_zofe_country = yes
+	}
+}

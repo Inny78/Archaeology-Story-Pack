@@ -1,0 +1,285 @@
+asp_mod_active = { always = yes }
+
+asp_dig_site_visible_trigger = {
+	asp_is_default_empire = yes
+	is_ai = no
+	exists = from
+	exists = from.planet
+	exists = from.solar_system
+	default_site_visible_trigger = yes
+}
+
+asp_is_general_planet = {
+	OR = {
+		habitable_planet = yes
+		asp_is_uninhabitable = yes
+	}
+}
+
+asp_is_aquatic = {
+	is_wet = yes
+	OR = {
+		is_planet_class = pc_ocean
+		# All These Worlds
+		atw_is_ocean_basic = yes
+		# Planetary Diversity
+		is_pd_ocean = yes
+		is_pd_aquatics = yes
+		pd_is_ocean = yes
+	}
+}
+
+asp_is_continental = {
+	is_wet = yes
+	OR = {
+		is_planet_class = pc_continental
+		# Planetary Diversity
+		is_pd_continental = yes
+		pd_is_continental = yes
+		# All These Worlds
+		atw_is_continental = yes
+	}
+}
+
+asp_is_desertic = {
+	is_dry = yes
+	OR = {
+		is_planet_class = pc_desert
+		# Planetary Diversity
+		is_pd_desert = yes
+		pd_is_desert = yes
+		# All These Worlds
+		atw_is_desert = yes
+	}
+}
+
+asp_is_frozen = {
+	OR = {
+		is_planet_class = pc_frozen
+		is_planet_class = pc_arctic
+		# All These Worlds
+		atw_is_frozen = yes
+		# Planetary Diversity
+		is_pd_arctic = yes
+	}
+}
+
+asp_is_tundra = {
+	OR = {
+		is_planet_class = pc_tundra
+		# Planetary Diversity
+		is_pd_tundra = yes
+		pd_is_tundra = yes
+		# All These Worlds
+		atw_is_tundra = yes
+	}
+}
+
+asp_is_gas_giant = {
+	OR = {
+		is_planet_class = pc_gas_giant
+		# All these worlds
+		atw_is_gas_giant = yes
+	}
+}
+
+asp_is_scientist_cautious = {
+	OR = {
+		has_trait = leader_trait_roamer
+		has_trait = leader_trait_chosen
+		has_trait = leader_trait_curator
+		has_trait_tier1or2 = { TRAIT = leader_trait_paranoid }
+		has_trait_tier1or2or3 = { TRAIT = leader_trait_slippery }
+		has_trait_tier1or2or3 = { TRAIT = leader_trait_observant }
+	}
+}
+
+asp_is_heavy_metal = {
+	OR = {
+		is_mechanical_empire = yes
+		is_robot_empire = yes
+	}
+}
+
+asp_is_uninhabitable = {
+	OR = {
+		uninhabitable_regular_planet = yes
+		asp_is_frozen = yes
+		asp_is_barren = yes
+		asp_is_molten = yes
+		asp_is_barren_cold = yes
+		# Planetary Diversity
+		is_pd_toxic = yes
+		# All These Worlds
+		atw_is_toxic = yes
+	}
+}
+
+asp_is_valid_system = {
+	solar_system = {
+		exists = star
+		NOR = {
+			has_star_flag = sealed_system
+			has_star_flag = empire_cluster
+			has_special_star_flag_trigger = yes
+			is_fe_cluster = yes
+			has_star_flag = drone_home_system
+			any_system_planet = {
+				OR = {
+					exists = archaeological_site
+					has_planet_flag = hatchling_egg
+					has_planet_flag = suppress_archaeological_sites
+				}
+			}
+		}
+	}
+}
+
+asp_is_valid_alshigan_system = {
+	solar_system = {
+		exists = star
+		NOR = {
+			has_star_flag = sealed_system
+			has_star_flag = empire_cluster
+			has_special_star_flag_trigger = yes
+			is_fe_cluster = yes
+			has_star_flag = drone_home_system
+			any_system_planet = {
+				OR = {
+					has_planet_flag = hatchling_egg
+					has_planet_flag = suppress_archaeological_sites
+				}
+			}
+		}
+	}
+}
+
+asp_is_modern_age = {
+	OR = {
+		has_pre_ftl_age = industrial_age
+		has_pre_ftl_age = machine_age
+	}
+}
+
+asp_is_barren = {
+	OR = {
+		is_planet_class = pc_barren
+		# Planetary Diversity
+		is_pd_barren = yes
+		# All These Worlds
+		atw_is_barren = yes
+	}
+}
+
+asp_is_barren_cold = {
+	OR = {
+		is_planet_class = pc_barren_cold
+		# Planetary Diversity
+		is_pd_barren_cold = yes
+		# All These Worlds
+		atw_is_barren_cold = yes
+	}
+}
+
+asp_is_arctic = {
+	OR = {
+		is_planet_class = pc_arctic
+		# Planetary Diversity
+		is_pd_barren = yes
+		pd_is_arctic = yes
+		# All These Worlds
+		atw_is_arctic = yes
+	}
+}
+
+asp_is_valid_moon = {
+	AND = {
+		asp_is_barren = yes
+		is_moon = yes
+		NOT = { has_planet_flag = has_megastructure }
+		solar_system = {
+			starting_system = no
+		}
+	}
+}
+
+asp_is_valid_colony = {
+	AND = {
+		is_colony = yes
+		is_capital = no
+		is_artificial = no
+	}
+}
+
+asp_is_gaia = {
+	OR = {
+		is_planet_class = pc_gaia
+		# All These Worlds
+		atw_is_gaia = yes
+		# Planetary Diversity
+		is_pd_gaia = yes
+		pd_is_planet_class_gaia = yes
+	}
+}
+
+asp_is_molten = {
+	OR = {
+		is_planet_class = pc_molten
+		# All These Worlds
+		atw_is_molten = yes
+		# Planetary Diversity
+		is_pd_molten = yes
+	}
+}
+
+asp_is_tropical = {
+	OR = {
+		is_planet_class = pc_tropical
+		# All These Worlds
+		atw_is_tropical = yes
+		# Planetary Diversity
+		is_pd_tropical = yes
+		pd_is_tropical = yes
+	}
+}
+
+asp_is_alpine = {
+	OR = {
+		is_planet_class = pc_alpine
+		# All These Worlds
+		atw_is_alpine = yes
+		# Planetary Diversity
+		is_pd_alpine = yes
+		pd_is_alpine = yes
+	}
+}
+
+asp_is_savannah = {
+	OR = {
+		is_planet_class = pc_savannah
+		# All These Worlds
+		atw_is_savannah = yes
+		# Planetary Diversity
+		is_pd_savannah = yes
+		pd_is_savannah = yes
+	}
+}
+
+asp_is_toxic = {
+	OR = {
+		is_planet_class = pc_toxic
+		# Planetary Diversity
+		is_pd_toxic = yes
+		# All These Worlds
+		atw_is_toxic = yes
+	}
+}
+
+asp_is_moon_of_gas_giant = {
+	is_scope_type = planet
+	exists = orbit
+	OR = {
+		orbit = { asp_is_gas_giant = yes }
+		has_planet_flag = gas_giant_moon
+	}
+}

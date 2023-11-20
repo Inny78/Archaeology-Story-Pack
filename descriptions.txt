@@ -1,0 +1,94 @@
+[img]https://i.postimg.cc/yxxVY1MW/rate-favorite.gif[/img]
+[h1] Stellaris v3.9.* Compatible [/h1]
+
+[img]https://i.postimg.cc/yNgJTMGr/1.png[/img]
+A year ago, there was a contest to make archaeology event mod in my community.
+This mod is made as a reward for the contest.
+
+It adds 19 archaeology stories written by the community members.
+
+Check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1999328266] Precursor Story Pack [/url] mod for 'Mod Making Phase 5' stories.
+
+It currently provides the following stories and relics:
+
+[img]https://i.postimg.cc/GpfrVtn1/1-1.png[/img]
+[h1] Mod Making Phase 1 [/h1]
+- When the World sings
+- A Bedroom Planet
+- The First Music
+- Dawn star is coming
+- Ship of Theseus
+
+[h1] Mod Making Phase 2 [/h1]
+- Soul of the Art
+- The Place where history has preserved (Displayed as: Kessler Syndrome)
+- Geocentrism (Displayed as: Fixed World) (Includes: a Colossus Weapon, Geo-centralizer)
+- Haunting Spectre (Displayed as: Ruined World)
+- Rain World
+
+[h1] Mod Making Phase 3 [/h1]
+- Biggest Show in the World
+- Axis of the Planet (Include: Multi Ends)
+- Tomb of Space Whales
+- King of the Underground City
+- Strangely Fertile World (Leads to: Strangely Fertile World -> Awakened Moon)
+
+[h1] Mod Making Phase 4 [/h1]
+- Red Tomb World
+- Beyond Earth: Purity (Displayed as: Desolate World) (Leads to: Desolate World -> Isolated World)
+- Epilogue (Leads to: Ancient Probe -> Epilogue)
+- Parasite Machine
+
+[h1] Mod Making Phase 5 [/h1]
+- [Precursor] The Sless Alliance
+- [Precursor] Egalitarian Fallen Empire, The Coprean Constitution
+- [Precursor] The Astanine
+
+These 3 precursor stories are not provided by this mod.
+Check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1999328266] Precursor Story Pack [/url] mod for them.
+
+[img]https://i.postimg.cc/j5JKbTRn/1-2.png[/img]
+[h1] Mod Making Phase 1 [/h1]
+- Music Sheet of the Universe
+
+[h1] Mod Making Phase 2 [/h1]
+- Geocentric Device
+- the Communist Manifesto
+
+[h1] Mod Making Phase 3 [/h1]
+- Protagonist of the Show
+- Vermifugum Flint
+- Black Marker
+
+[h1] Mod Making Phase 4 [/h1]
+- Corpse of Synthetic Civilization's God
+- The Replicator
+- The Last Tribute
+- ASGU
+
+[img]https://i.postimg.cc/vTMcbcZp/3.png[/img]
+[h1] Bug Report Thread [/h1]
+[h1] [url=https://steamcommunity.com/workshop/filedetails/discussion/1993869579/1750148267252206103/] Click to open [/url] [/h1]
+
+Every mod can have its own bug, including this one. Your report is the best way to fix it.
+
+[img]https://i.postimg.cc/y6btLPK5/4.png[/img]
+[h1] Suggestion Thread [/h1]
+[h1] [url=https://steamcommunity.com/workshop/filedetails/discussion/1993869579/1750148267252207115/] Click to open [/url] [/h1]
+
+Mod is like a tree, your feedback is nutrition that makes it splendid and beautiful. 
+Help me make a good one. :)
+
+[img]https://i.postimg.cc/9Myr6GCd/4.png[/img]
+[h1] Addon [/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2964001455] German Language Addon [/url]
+
+[h1] Mod Compatibility [/h1]
+This mod does NOT overwrite any vanilla file. Therefore there should be no mod conflict, in theory.
+
+[h1] Special Thanks [/h1]
+Life-seeded, as a maker of Mod Making Phase 1 Archaeology Stories.
+슈팅스타]디스코 (ShootingStar] Disco), for translation of original stories into english.
+ChupaChups, for translation of original stories into english.
+
+[url=https://discord.com/channels/378985949373399040/676376359513227304/676377612297437207][img]https://i.imgur.com/4Und3QN.png[/img][/url]

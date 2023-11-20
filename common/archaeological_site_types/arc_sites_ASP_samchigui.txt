@@ -1,0 +1,48 @@
+# A bedroom planet #https://gall.dcinside.com/mgallery/board/view/?id=stellaris&no=8283
+site_ASP_a_bedroom_planet = {
+	desc = "site_ASP_a_bedroom_planet_intro"
+	picture = GFX_evt_ASP_samchigui_fifth
+	stages = 2
+	weight = {
+		base = 0
+		modifier = {
+			add = 50
+			habitable_planet = yes
+			solar_system = {
+				any_system_planet = {
+					NOT = { exists = archaeological_site }
+				}
+			}
+		}
+	}
+	allow = {
+		exists = leader
+		leader = { leader_class = scientist }
+		owner = { is_ai = no }
+	}
+	visible = {
+		aspmod_dig_site_visible_trigger = yes
+	}
+
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}
+
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_B1
+		event = ASPmod.10
+	}
+
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_B2
+		event = ASPmod.11
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
