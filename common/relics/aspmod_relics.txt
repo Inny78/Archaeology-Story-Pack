@@ -41,10 +41,10 @@ r_aspmod_geocentric_device = {
 	possible = {
 		is_ai = no
 		num_owned_planets > 1
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_geocentric_device
+        }
 	}
 }
 r_aspmod_communist_manifesto = {
@@ -80,12 +80,12 @@ r_aspmod_communist_manifesto = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_communist_manifesto
+        }
+    }
 }
 r_aspmod_vermifugum = {
 	activation_duration = 3600
@@ -119,12 +119,12 @@ r_aspmod_vermifugum = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_vermifugum
+        }
+    }
 }
 r_aspmod_deadspace_marker = {
 	activation_duration = 3600
@@ -158,12 +158,12 @@ r_aspmod_deadspace_marker = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_deadspace_marker
+        }
+    }
 }
 r_aspmod_synthetic_god_mummy = {
 	activation_duration = 3600
@@ -197,12 +197,12 @@ r_aspmod_synthetic_god_mummy = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_synthetic_god_mummy
+        }
+    }
 }
 r_aspmod_the_replicator = {
 	activation_duration = 3600
@@ -237,12 +237,12 @@ r_aspmod_the_replicator = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_the_replicator
+        }
+    }
 }
 r_aspmod_the_last_tribute = {
 	activation_duration = 3600
@@ -286,12 +286,12 @@ r_aspmod_the_last_tribute = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_the_last_tribute
+        }
+    }
 }
 r_aspmod_parasite_machine = {
 	activation_duration = 3600
@@ -327,12 +327,12 @@ r_aspmod_parasite_machine = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_parasite_machine
+        }
+    }
 }
 r_aspmod_parasite_machine_2 = {
 	activation_duration = 3600
@@ -370,10 +370,10 @@ r_aspmod_parasite_machine_2 = {
 	}
 
 	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+    possible = {
+        inline_script = {
+            script = relics/activation_checks
+            RELIC = r_aspmod_parasite_machine_2
+        }
+    }
 }
