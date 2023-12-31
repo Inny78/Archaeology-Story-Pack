@@ -35,10 +35,6 @@
  ### static modifiers ###
  LSD_archology_fast: "ASP Mod Test Helper"
 
- ### decisions ###
- decision_asp_digsite_selection: "ASP Mod Digsite Selector"
- decision_asp_digsite_selection_desc: "Click to load digsite selector."
-
  ### buildings ###
  building_aspmod_primitive_factory: "$building_primitive_factory$"
  building_aspmod_primitive_factory_desc: "$building_primitive_factory_desc$"
