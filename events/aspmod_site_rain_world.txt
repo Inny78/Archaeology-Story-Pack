@@ -145,10 +145,6 @@ fleet_event = {
 		from = { set_site_progress_locked = yes }
 	}
 
-	after = { 
-		from = { set_site_progress_locked = no }
-	}
-
 	option = {
 		name = asp.33.1
 		trigger = {
@@ -286,6 +282,7 @@ fleet_event = {
 		}
 	}
 	after = {
+		from = { set_site_progress_locked = no }
 		from.planet = {
 			reset_planet = yes
 			clear_deposits = yes
@@ -361,6 +358,10 @@ country_event = {
 			event_target:ASP_site_rain_world_target = {
 				add_deposit = aspmod_d_small_creature_memorial
 			}
+		}
+	}
+	after = {
+		hidden_effect = {
 			clear_global_event_target = ASP_site_rain_world_target
 		}
 	}

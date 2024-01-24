@@ -21,6 +21,9 @@ ASP_site_rain_world = {
 	on_visible = {
 		country_event = { id = story.5 days = 30 }
 	}
+	on_create = {
+		root.planet = { save_global_event_target_as = ASP_site_rain_world_target }
+	}
 
 	stage = {
 		difficulty = 3
