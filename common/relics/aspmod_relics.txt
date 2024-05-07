@@ -6,6 +6,7 @@ r_aspmod_geocentric_device = {
 	activation_duration = 1800
 	portrait = "GFX_relic_geocentric_device"
 	sound = "relic_activation_extradimensional_warlock"
+	can_be_stolen = no
 
 	resources = {
 		category = relics
