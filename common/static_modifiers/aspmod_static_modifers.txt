@@ -1,59 +1,3 @@
-#icon_frame = 1 # green frame
-#icon_frame = 2 # yellow frame
-#icon_frame = 3 # red frame
-
-LSD_archology_fast = {
-	icon = gfx/interface/archaeology/icon_archaeology.dds
-	ship_archaeological_site_excavation_speed_mult = 50
-	ship_anomaly_research_speed_mult = 50
-	ship_archaeological_site_clues_add = 10
-}
-
-### Archaeology: When the world sings 
-ASP_singing_planet = {
-	pop_happiness = 0.10
-	planet_immigration_pull_mult = 0.25
-	planet_jobs_unity_produces_mult = 0.15
-	icon = "gfx/interface/icons/planet_modifiers/pm_ASP_singing_planet.dds"
-	icon_frame = 1
-}
-ASP_screaming_planet = {
-	pop_happiness = -0.10
-	planet_jobs_society_research_produces_mult = 0.50
-	icon = "gfx/interface/icons/planet_modifiers/pm_ASP_screaming_planet.dds"
-	icon_frame = 2
-}
-
-### Archaeology: The First Music
-ASP_Fiat_Lux = {
-	pop_happiness = 0.05
-	planet_stability_add = 5
-	icon = "gfx/interface/icons/planet_modifiers/pm_ASP_singing_planet.dds"
-	icon_frame = 1
-}
-ASP_music_of_the_universe_modifier = {
-	planet_jobs_energy_produces_mult = 0.20
-	pop_happiness = 0.10
-}
-
-### Archaeology: The Ship of Theseus
-ASP_small_xenophile_bonus = {
-	pop_ethic_xenophile_attraction_mult = 0.25
-	planet_immigration_pull_mult = 0.05
-}
-
-ASP_middle_xenophile_bonus = {
-	pop_ethic_xenophile_attraction_mult = 0.50
-	planet_immigration_pull_mult = 0.10
-	icon = "gfx/interface/icons/planet_modifiers/pm_nationalist_corruption.dds"
-	icon_frame = 2
-}
-
-ASP_big_xenophile_bonus = {
-	pop_ethic_xenophile_attraction_mult = 0.75
-	planet_immigration_pull_mult = 0.15
-}
-
 #ASP_geocentrism
 aspmod_engineering_bonus = {
 	planet_jobs_engineering_research_produces_mult = 0.05
@@ -135,35 +79,6 @@ aspmod_ftl_lane_switcher = {
 }
 aspmod_vermifugum_relic_activated = {
 	army_damage_mult = 1.0
-}
-
-#ASP_site_biggest_show_of_world
-aspmod_protagonist_of_the_show_relic_activated = {
-	planet_pops_consumer_goods_upkeep_mult = -0.2
-}
-
-#ASP_site_tomb_of_dead_whale
-aspmod_whale_fossil = {
-	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_impacts.dds"
-	icon_frame = 2
-	planet_jobs_society_research_produces_mult = 0.25
-	planet_jobs_minerals_produces_mult = -0.25
-}
-aspmod_site_whale_lesson = {
-	country_society_research_produces_mult = 0.1
-}
-aspmod_whale_hunt = {
-	damage_vs_country_type_tiyanki_mult = 0.25
-	damage_vs_country_type_guardian_elderly_tiyanki_mult = 0.25
-	country_unity_produces_mult = 0.1
-}
-
-#ASP_site_king_of_underground_city
-aspmod_ancient_terraforming_technology = {
-	terraforming_cost_mult = -0.2
-}
-aspmod_tomb_of_the_king = {
-	pop_ethic_authoritarian_attraction_mult = 2
 }
 
 #ASP_site_strangely_fertile_world
