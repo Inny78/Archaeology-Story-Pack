@@ -2,12 +2,15 @@ aspmod_axis_of_planet_building = {
 	icon = "GFX_spaceport_module_aspmod_axis_of_planet_building"
 	construction_days = 180
 
+	potential = {
+		solar_system = { any_system_planet = { has_modifier = aspmod_ftl_lane_switcher } }
+	}
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_starport"
 			has_starbase_size >= starbase_starport
 		}
-		solar_system = { any_system_planet = { has_modifier = aspmod_ftl_lane_switcher } }
 	}
 
 	resources = {

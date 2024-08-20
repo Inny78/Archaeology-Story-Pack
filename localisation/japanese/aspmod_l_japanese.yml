@@ -600,3 +600,11 @@
  mod_aspmod_parasite_machine_relic_3_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
  mod_aspmod_parasite_machine_relic_4_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
  mod_aspmod_parasite_machine_relic_5_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
+
+ # Policy
+ policy_scfe_archaeology_cleanup: "Automatic archaeology cleanup"
+ policy_scfe_archaeology_cleanup_desc: "Allows the automatic removal of completed dig sites."
+ scfe_archaeology_cleanup_active: "Activate auto-cleanup"
+ scfe_archaeology_cleanup_inactive: "No dig site cleanup"
+ scfe_archaeology_cleanup_active_desc: "$policy_scfe_archaeology_cleanup_desc$"
+ scfe_archaeology_cleanup_inactive_desc: "Disallows the automatic removal of completed dig sites."

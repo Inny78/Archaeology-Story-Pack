@@ -321,7 +321,6 @@
  asp.34.desc: "La inteligencia artificial se reinicia por completo. Este 'Iterador' nos funcionará ahora. Aunque su eficiencia de procesamiento ha disminuido un poco durante la reprogramación, aún tiene poderosas capacidades de cálculo. Nuestros principales investigadores están ansiosos por utilizarlo en sus investigaciones lo antes posible."
  asp.34.a: "Muy bien"
  asp.34.a.tooltip: "Un gobernador de nivel 10 con §YRasgo Único§! aparecerá."
- asp.34.a.leader_name: "Cinco Guijarros"
  asp.35.name: "Zoológico de molusco-mamífero"
  asp.35.desc: "La división de investigación de la sociedad ha terminado su trabajo. Este pequeño blanco podrá vivir cómodamente en nuestro zoológico xeno."
  asp.35.a: "Es tan lindo."
@@ -583,3 +582,11 @@
  mod_aspmod_parasite_machine_relic_3_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
  mod_aspmod_parasite_machine_relic_4_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
  mod_aspmod_parasite_machine_relic_5_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
+
+ # Policy
+ policy_scfe_archaeology_cleanup: "Automatic archaeology cleanup"
+ policy_scfe_archaeology_cleanup_desc: "Allows the automatic removal of completed dig sites."
+ scfe_archaeology_cleanup_active: "Activate auto-cleanup"
+ scfe_archaeology_cleanup_inactive: "No dig site cleanup"
+ scfe_archaeology_cleanup_active_desc: "$policy_scfe_archaeology_cleanup_desc$"
+ scfe_archaeology_cleanup_inactive_desc: "Disallows the automatic removal of completed dig sites."

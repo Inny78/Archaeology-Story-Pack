@@ -166,3 +166,14 @@ mod_aspmod_parasite_machine_relic_4_alt = {
 mod_aspmod_parasite_machine_relic_5_alt = {
 	country_consumer_goods_produces_mult = 0.3
 }
+
+# Ship of Theseus
+ASP_small_xenophile_bonus = {
+	pop_ethic_xenophile_attraction_mult = 0.1
+}
+ASP_middle_xenophile_bonus = {
+	pop_ethic_xenophile_attraction_mult = 0.15
+}
+ASP_big_xenophile_bonus = {
+	pop_ethic_xenophile_attraction_mult = 0.2
+}

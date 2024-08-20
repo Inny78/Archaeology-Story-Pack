@@ -296,7 +296,6 @@
  asp.34.desc: "Искусственный интеллект полностью сброшен. Этот «Итератор» теперь будет работать на нас. Несмотря на то, что его эффективность обработки немного снизилась во время перепрограммирования, он по-прежнему обладает мощными вычислительными возможностями. Наши основные исследователи стремятся использовать его в своих исследованиях как можно скорее."
  asp.34.a: "Отлично."
  asp.34.a.tooltip: "Губернатор 10 уровня с §YUnique Trait§! будет получен."
- asp.34.a.leader_name: "Пять камешков"
  asp.35.name: "Зоопарк моллюсков-млекопитающих"
  asp.35.desc: "Отдел исследования общества завершил свою работу. Этот маленькое белое животное, сможет легко жить в зоопарке ксено."
  asp.35.a: "Это так мило."
@@ -558,3 +557,11 @@
  mod_aspmod_parasite_machine_relic_3_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
  mod_aspmod_parasite_machine_relic_4_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
  mod_aspmod_parasite_machine_relic_5_alt: "$mod_aspmod_parasite_machine_relic_1_alt$"
+
+ # Policy
+ policy_scfe_archaeology_cleanup: "Automatic archaeology cleanup"
+ policy_scfe_archaeology_cleanup_desc: "Allows the automatic removal of completed dig sites."
+ scfe_archaeology_cleanup_active: "Activate auto-cleanup"
+ scfe_archaeology_cleanup_inactive: "No dig site cleanup"
+ scfe_archaeology_cleanup_active_desc: "$policy_scfe_archaeology_cleanup_desc$"
+ scfe_archaeology_cleanup_inactive_desc: "Disallows the automatic removal of completed dig sites."

@@ -63,4 +63,5 @@ pd_is_planet_class_nuked = { always = no }
 pd_is_savannah = { always = no }
 pd_is_tropical = { always = no }
 pd_is_tundra = { always = no }
+scfe_mod_active = { always = no }
 urmazin_system = { always = no }
