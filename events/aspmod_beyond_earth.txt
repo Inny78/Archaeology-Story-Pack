@@ -278,8 +278,8 @@ ship_event = {
 	after = { #excuted right after the option is selected
 		hidden_effect = {
 			event_target:ASP_site_beyond_earth_purity_planet_2 = {
-				create_colony = { owner = prev.owner }
 				change_pc = pc_city
+				create_colony = { owner = prev.owner }
 				if = {
 					limit = { has_global_flag = asp_beyond_earth_purity_story_human_unlocked }
 					create_species = {
@@ -363,10 +363,6 @@ fleet_event = {
 
 	after = {
 		from = { set_site_progress_locked = no }
-		if = {
-			limit = { owner = { has_policy_flag = scfe_archaeology_cleanup_active } }
-			destroy_archaeological_site = from
-		}
 	}
 
 	option = {
