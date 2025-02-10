@@ -61,7 +61,7 @@ aspmod_multiverse_gate_planet = {
 	custom_tooltip = aspmod_multiverse_gate_planet_tooltip
 }
 aspmod_multiverse_gate_country = {
-	country_base_physics_research_produces_add = 88
+	planet_jobs_physics_research_produces_mult = 0.2
 	country_base_energy_produces_add = -10
 }
 aspmod_infinite_observatory_planet = {
@@ -69,7 +69,7 @@ aspmod_infinite_observatory_planet = {
 	custom_tooltip = aspmod_infinite_observatory_planet_tooltip
 }
 aspmod_infinite_observatory_country = {
-	country_base_physics_research_produces_add = 10
+	planet_jobs_physics_research_produces_mult = 0.1
 	planet_amenities_mult = 0.1
 	planet_amenities_no_happiness_mult = 0.1
 }
