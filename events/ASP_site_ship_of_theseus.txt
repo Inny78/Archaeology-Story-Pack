@@ -9,19 +9,19 @@ fleet_event = {
 	desc = "ASPmod.40.desc"
 	picture = GFX_evt_relic_world
 	show_sound = event_dig_site
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
 
 	after = {
-		from = { set_site_progress_locked = no } 
+		from = { set_site_progress_locked = no }
 	}
-	
+
 	option = {
 		name = DIG
 		small_artifact_reward = yes
@@ -35,19 +35,19 @@ fleet_event = {
 	desc = "ASPmod.41.desc"
 	picture = GFX_evt_scanning_remains
 	show_sound = event_dangerous_animals
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
 
-	after = { 
-		from = { set_site_progress_locked = no } 
+	after = {
+		from = { set_site_progress_locked = no }
 	}
-	
+
 	option = {
 		name = DIG
 		trigger = {
@@ -81,19 +81,19 @@ fleet_event = {
 	desc = "ASPmod.42.desc"
 	picture = GFX_evt_clones
 	show_sound = event_laboratory_sound
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
 
-	after = { 
-		from = { set_site_progress_locked = no } 
+	after = {
+		from = { set_site_progress_locked = no }
 	}
-	
+
 	option = {
 		name = "ASPmod.42.option.a"
 		trigger = {
@@ -152,19 +152,19 @@ fleet_event = {
 	desc = "ASPmod.43.desc"
 	picture = GFX_evt_genetic_modification
 	show_sound = event_bad_omen
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
 
-	after = { 
-		from = { set_site_progress_locked = no } 
+	after = {
+		from = { set_site_progress_locked = no }
 	}
-	
+
 	option = {
 		name = "ASPmod.43.option"
 		small_artifact_reward = yes
@@ -178,23 +178,23 @@ fleet_event = {
 	desc = "ASPmod.44.desc"
 	picture = GFX_evt_society_research
 	show_sound = event_door_opening
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
 
-	after = { 
+	after = {
 		from = { set_site_progress_locked = no }
 		if = {
 			limit = { owner = { has_policy_flag = scfe_archaeology_cleanup_active } }
 			destroy_archaeological_site = from
 		}
 	}
-	
+
 	option = {
 		name = "ASPmod.44.option.a"
 		trigger = {
@@ -321,7 +321,7 @@ fleet_event = {
 		name = "ASPmod.44.option.f"
 		custom_tooltip = "ASPmod.44.option.f.tooltip"
 		trigger = {
-			owner = {	
+			owner = {
 				NOR = {
 					has_ethic = ethic_xenophile
 					has_ethic = ethic_fanatic_xenophile
@@ -347,21 +347,29 @@ fleet_event = {
 			owner = {
 				while = {
 					count = 20
-					random_owned_pop = {
+					weighted_random_owned_pop_group = {
 						limit = {
 							NOR = {
-								pop_has_ethic = ethic_xenophile
-								pop_has_trait = trait_mechanical
+								pop_group_has_ethic = ethic_xenophile
+								pop_group_has_trait = trait_mechanical
 							}
 						}
 						if = {
-							limit = { pop_has_ethic = ethic_xenophobe }
-							pop_remove_ethic = ethic_xenophobe
+							limit = { pop_group_has_ethic = ethic_xenophobe }
+							pop_group_remove_ethic = ethic_xenophobe
 						}
-						pop_change_ethic = ethic_xenophile
+						pop_group_transfer_ethic = {
+							POP_GROUP = this
+							ETHOS = ethic_xenophile
+							PERCENTAGE = 0.1
+						}
 					}
 				}
-				shift_ethic = ethic_xenophile
+				pop_group_transfer_ethic = {
+					POP_GROUP = this
+					ETHOS = ethic_xenophile
+					PERCENTAGE = 0.1
+				}
 			}
 		}
 	}
