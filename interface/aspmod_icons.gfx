@@ -364,6 +364,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_ASP_lifeseeded_07"
+		texturefile = "gfx/event_pictures/ASP_lifeseeded_07.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+	spriteType = {
 		name = "GFX_evt_ASP_samchigui_fifth"
 		texturefile = "gfx/event_pictures/asp_samchigui_fifth.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"

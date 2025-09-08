@@ -397,6 +397,7 @@
  asp.64.name: "Verdad"
  asp.64.desc: "Las grabaciones y diversos datos del barco han descubierto una verdad aterradora. La estructura roja que se encuentra debajo de la ciudad era solo uno de los muchos productos en masa, todos los cuales se remontan a la estructura oscura en el centro del satélite.\nLa estructura oscura es de hecho el núcleo de un parásito del tamaño de un planeta, que repitió el horrible proceso de control mental de toda la población de planetas y masacándolos, con el fin de desmenuzar la materia orgánica resultante en más de sí misma. Este es el significado de la creencia fundamental de la religión del planeta: muerte, resurrección y unión.\nPero parece que cierto grupo heroico de ingenieros derrotó a esta abominación utilizando un modelo de barco de excavación antiguo. Pudieron deslizarse a la órbita del satélite, evitando sus ataques, y luego usaron la gigantesca excavadora para prácticamente arrancar el núcleo del satélite y la estructura oscura junto con él. El satélite-cadáver encontró su perdición, y la galaxia se volvió un poco más segura gracias a esta heroica hazaña.\nLos héroes parecen haber podido evacuar a los alrededores de su mundo natal. Construyeron una pequeña colonia y establecieron un campo de fuerza para protegerse de las olas emitidas por la estructura oscura, y pasaron sus últimos años allí.\nQué final más heroico para esta historia."
  asp.64.a: "Es verdaderamente una historia heroica. Algo había que hacer."
+ asp.64.b: "Destruyan la estructura. Asegúrense de que ya no afecte a nadie."
  r_aspmod_deadspace_marker: "Marcador Negro"
  r_aspmod_deadspace_marker_desc: "Estructura negra en forma de espiral, una vez llamada como 'Marcador Negro' por su antigua civilización. Supuestamente libera ondas espeluznantes a pesar de que está suprimido por fuertes campos de contención. A veces, la voz de tu ser querido te llama: "Haznos completos, de nuevo.""
  aspmod_fertile_soils: "Suelos Fértiles"
@@ -453,7 +454,7 @@
  asp.75.a: "Obtuvimos lo que queríamos. Fin de la excavación."
  asp.75.a.tooltip: "Obtendremos una ecumenópolis desarrollada con población xeno."
  asp.75.b: "No cuadra. Investigar más a fondo."
- asp.75.b.tooltip: "Escavación en §Y$ASP_site_beyond_earth_purity_2$§! el sitio arqueológico ha sido detenido §Rpermanentemente§!, pero el lugar permanecerá." 
+ asp.75.b.tooltip: "Escavación en §Y$ASP_site_beyond_earth_purity_2$§! el sitio arqueológico ha sido detenido §Rpermanentemente§!, pero el lugar permanecerá."
  asp.75.c.tooltip: "Ahora podemos continuar la excavación del §Y$ASP_site_beyond_earth_purity_2$§! lugar arqueológico."
  asp.76.name: "Éxodo"
  asp.76.desc: "Pudimos contactar con su gobierno planetario. Se sorprendieron, pero para nuestro deleite, nos recibieron. Nos contaron lo que pasó en [ASP_site_beyond_earth_purity_1_system.GetName].\nLa guerra nuclear llamada 'El gran error' había devastado el planeta, lo que provocó la escasez de recursos. Discutieron entre ellos, un lado creyendo que deberían explorar y colonizar otros planetas, y el otro llamándolo desperdicio de recursos. Estaban al borde de otra guerra, cuando una nación envió una nave de colonia a pesar de los riesgos. Otras naciones siguieron su ejemplo y encontraron a Nova [ASP_site_beyond_earth_purity_1_system.GetName].\nSin embargo, el conflicto estaba en su naturaleza y se podían escuchar argumentos incluso en el nuevo planeta. Un día, el líder de un poder político que ponía mucho énfasis en la humanidad sugirió que deberían traer a la gente del devastado Viejo [ASP_site_beyond_earth_purity_1_system.GetName] a Nova [ASP_site_beyond_earth_purity_1_system.GetName], y el resultado es la puerta que hemos visto, llamada 'Portal del Éxodo'.\nOriginalmente era una puerta de un solo sentido para [ASP_site_beyond_earth_purity_1_system.GetName], pero cuando el grupo de avanzada llegó al planeta devastado, los habitantes del Viejo [ASP_site_beyond_earth_purity_1_system.GetName] estaban motivados y comenzaron a construir una puerta a Nova [ASP_site_beyond_earth_purity_1_system.GetName] utilizando la tecnología más avanzada traída a casa por el partido de avanzada y la fuerza laboral del Viejo [ASP_site_beyond_earth_purity_1_system.GetName] habitantes.\nToda la especie pudo finalmente unirse en Nova [ASP_site_beyond_earth_purity_1_system.GetName]. Construyeron una barrera con miedo ciego a las civilizaciones alienígenas, pero ahora están muy felices por el primer contacto pacífico con nosotros. Ahora se ofrecen como voluntarios para convertirse en parte de nuestra sociedad, lo cual no tenemos buenas razones para negar."
@@ -511,10 +512,11 @@
  asp.88.desc.2: "$asp.88.desc.1$\nEl portal de la bóveda se abrió en ese momento. Dentro hay todo tipo de cosas. Metales preciosos, recursos útiles, tecnologías desconocidas. En cada uno de esos elementos, se escribe una oración a su dios. Donde quiera que miremos, vemos expresiones de gratitud."
  asp.88.a: "...Gracias."
  asp.88.b: "......"
+ asp.88.c: "¡Mentira, todo son mentiras!"
  r_aspmod_the_last_tribute: "El Último Tributo"
  r_aspmod_the_last_tribute_desc: "Un antiguo alienígena con antecedentes misteriosos nos dio este cofre del tesoro. ¡Debe ser la bendición del Dios!"
  aspmod_the_last_tribute_relic_activated: "¡Dios esta con nosotros!"
- 
+
  ### ASP_site_parasite_machine
  ASP_site_parasite_machine: "Máquina Parásita"
  ASP_site_parasite_machine_desc: "La indicación de civilización avanzada permanece en este planeta. El problema es que no se han detectado formas de vida inteligentes en el planeta."
