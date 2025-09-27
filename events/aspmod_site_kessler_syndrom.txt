@@ -13,7 +13,7 @@ fleet_event = {
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
@@ -34,11 +34,11 @@ fleet_event = {
 	desc = "asp.8.desc"
 	picture = GFX_evt_relic_world
 	show_sound = event_ground_battle
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
@@ -59,11 +59,11 @@ fleet_event = {
 	desc = "asp.9.desc"
 	picture = GFX_evt_relic_shipyard
 	show_sound = event_metal_fatigue
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
@@ -84,11 +84,11 @@ fleet_event = {
 	desc = "asp.10.desc"
 	picture = GFX_evt_ancient_databank
 	show_sound = event_finding_loot
-	
+
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
@@ -122,7 +122,7 @@ fleet_event = {
 	archaeology = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		from = { set_site_progress_locked = yes }
 	}
@@ -152,7 +152,7 @@ country_event = {
 	picture = GFX_evt_throne_room
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		event_target:asp_kessler_syndrome_world = {
 			set_planet_flag = ASP_kessler_syndrome_flag_2
@@ -329,7 +329,7 @@ country_event = {
 			add_deposit = d_mauritanian_security_zone
 			add_deposit = d_great_albertan_crater
 			add_deposit = d_scandinavian_reclamation_sector
-	
+
 			add_deposit = d_saharan_irrigation_project
 			add_deposit = d_pearl_river_agglomerate
 			add_deposit = d_great_pacific_garbage_patch
@@ -337,14 +337,10 @@ country_event = {
 			add_deposit = d_decrepit_dwellings
 
 			clear_blockers = yes
-	
+
 			while = {
 				add_district = district_city
-				count = 4
-			}
-			while = {
-				add_district = district_industrial
-				count = 2
+				count = 6
 			}
 			while = {
 				add_district = district_generator
@@ -599,7 +595,7 @@ country_event = {
 		custom_tooltip = asp.140.a.tooltip
 	}
 }
-#else 
+#else
 #desc and picture can be scripted to support triggers but the title isn't, so I just made a new event
 country_event = {
 	id = asp.141

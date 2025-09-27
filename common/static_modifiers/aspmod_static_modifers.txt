@@ -86,7 +86,7 @@ aspmod_fertile_soils = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_natural_beauty.dds"
 	icon_frame = 1
 	planet_max_districts_add = 1
-	district_farming_max = 6
+	district_farming_max_add = 6
 	planet_jobs_food_produces_mult = 0.35
 }
 aspmod_deadspace_marker_relic_activated = {
@@ -99,7 +99,7 @@ aspmod_deadspace_marker_relic_activated = {
 
 #ASP_site_red_tombworld
 aspmod_synthetic_god_mummy_relic_activated = {
-	planet_jobs_robotic_produces_mult = 0.15
+	planet_amenities_mult = 0.15
 }
 
 #ASP_site_beyond_earth_purity
