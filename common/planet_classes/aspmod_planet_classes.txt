@@ -2,6 +2,7 @@ pc_asp_rainworld = {
 	entity = "asp_rainworld_planet"
 	entity_scale = @planet_standard_scale
 	icon = GFX_planet_type_ocean
+	icon_large = GFX_planet_type_ocean_big
 	picture = pc_ocean
 
 	atmosphere_color 		= hsv { 0.58 0.5 0.9 }
